@@ -1,0 +1,21 @@
+.colorCard{
+    width: 200px;
+    height: 200px;
+}
+
+
+.red{
+    background-color: red;
+    border-top-left-radius: 100%;
+}
+.green{
+    background-color: green;
+    border-top-right-radius: 100%;
+}
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}
+.flash{}

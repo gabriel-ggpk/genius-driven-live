@@ -1,0 +1,29 @@
+.cardWrapper{
+    display: grid;
+    grid-template-columns: auto  auto;
+    gap: 10px;
+}
+.mainContainer{
+    position:relative;
+}
+.middleButton{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    vertical-align: middle;
+    line-height: 200px; 
+}
+.start{
+    font-size: 40px;
+}
+.score{
+    font-size: 80px;
+}
